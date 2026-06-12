@@ -38,7 +38,7 @@
 
 <body>
     <h1>Edit Data Mahasiswa</h1>
-    @if ($errors->eny())
+    @if ($errors->any())
         <div style="color: red;">
             <strong>Whoops! Ada Masalah dengan input anda:</strong>
             <ul>
